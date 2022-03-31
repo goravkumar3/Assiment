@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family:Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+header{
+    background: linear-gradient(120deg,#ff0084,#33001b);
+    color: #DFE9F3;
+    padding: 20px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav  a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 24px;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.a{
+    font-size: 17px;
+}
+.a1{
+    border: 1px solid white;
+    font-size: 20px;
+}
+.a1:hover{
+    text-decoration: none;
+    border: 2px solid white;
+}
+.a2{
+    background-color: white;
+    color: #33001b;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.a2:hover{
+    text-decoration: none;
+    transform: scale(0.4);
+}
+.Main-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.right > p{
+    width: 24em;
+    font-size: 20px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: white;
+}
+.btn1{
+    padding: 10px 30px;
+    background-color: white;
+}
+.left{
+   filter: hue-rotate(143deg);
+}
+.icon,.loop{
+    padding-top: 40px;
+    justify-content: space-around;
+    display: flex;
+}
+.sect{
+    background-color: #f3eae3;
+    padding-bottom: 40px;
+}
+.ved{
+    width: 40%;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+.content{
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   font-size: 1.7rem;
+   width: 25rem;  
+}
+.content a{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.content a:hover{
+    text-decoration: underline;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.sec{
+    text-align: center;
+    margin-top: 20px;
+}
+.prect{
+    width: 10rem;
+    font-size: 1.2rem;
+}
+.loop1{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.loop1 video{
+  max-width: 100%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  cursor: pointer;
+}
+.ved1{
+    width:  60%;
+}
+.sect1{
+    text-align: center;
+} 
+.p{
+    margin-top: 40px;
+}
+.sect2{
+    margin-top: 100px;
+    background-color: #93a0f1;
+    color: #F5FAFE;
+}
+.Main-box{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+} 
+.h1{
+    width: 90%;
+    font-size: 40px;
+    text-align: center;
+}
+.box{
+    padding-top: 20px;
+    width: 20%;
+    height: 24rem;
+    background-color: #DFE9F3;
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    color: black;
+}
+.box img{
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.box a{
+    margin-top: 70px;
+    text-decoration: none;
+}
+.h6 , .h2{
+    margin-left: 20px;
+}
+.h2{
+    width: 300px;
+}
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: #F04351 2px 4px 8px 0px;
+}
+.a3{
+    margin-left: 20px;
+}
+footer{
+    background-color: #ffffff;
+}
+.sectn{
+     background-color: #F04351;
+     padding: 7%;
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     border-radius: 0px 0px 50% 50%;
+     color: white;
+}
+.high{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.bott{
+    margin-left: 80px;
+}
+.a8{
+    border: 1px solid white;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+.a8:hover{
+    border: 3px solid white;
+}
+.a9{
+    padding: 9px 20px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+}
+footer{
+    background-color: #ffffff;
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.last li{
+    list-style: none;
+    margin-top: 10px;
+}
+.last li a{
+    text-decoration: none;
+    color: black;
+}
+.h{
+    font-weight: bolder;
+    font-size: 23px;
+}
+hr{
+    margin: 0px 80px;
+}
+.inline{
+    display: flex;
+    justify-content: space-around;
+}
+.inline a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+.inline svg{
+    margin-left: 20px;
+}
+.foot p{
+    padding: 40px;
+    margin-left: 40px;
+}

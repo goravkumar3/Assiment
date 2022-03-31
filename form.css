@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Luxurious Roman', cursive;
+}
+header{
+    background: linear-gradient(120deg,#ff0084,#33001b);
+    color: #DFE9F3;
+    padding: 20px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav  a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 24px;
+    color: white;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.a{
+    font-size: 17px;
+}
+.a1{
+    border: 1px solid white;
+    font-size: 20px;
+}
+.a1:hover{
+    text-decoration: none;
+    border: 2px solid white;
+}
+.a2{
+    background-color: white;
+    color: #33001b;
+    font-size: 18px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.a2:hover{
+    text-decoration: none;
+    transform: scale(0.4);
+}
+.Main-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+form{
+    background-color: white;
+    color: #33001b;
+    padding: 20px;
+}
+label{
+    line-height: 1.2857;
+    letter-spacing: .2px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.name{
+    display: flex;
+}
+.name input{
+    padding: 25px 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+    opacity: 0.6;
+} 
+input:hover{
+opacity: 1;
+}
+
+.email{
+    width: 95%;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 20px;
+    opacity: 0.6;
+}
